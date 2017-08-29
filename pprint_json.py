@@ -2,13 +2,13 @@ import json
 
 
 def load_data(filepath):
-    f = open(filepath)
-    js = json.load(f)
-    return js
+    raw_json_file = open(filepath)
+    json_file = json.load(raw_json_file)
+    return json_file
 
 
-def pretty_print_json(data):
-    print(data)
+def pretty_print_json(json_data):
+    print(json_data)
 
 
 if __name__ == '__main__':

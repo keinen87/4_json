@@ -1,17 +1,13 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Pretty print json format
 
 # Quickstart
-
-[TODO]
-
-Example of script launch on Linux, Python 3.5:
+Launch on Linux(Python 3.5) as simple
 
 ```#!bash
 
-$ python pprint_json.py <path to file>
-# TODO add output example
+$ python pprint_json.py
 
 ```
 
